@@ -1,5 +1,7 @@
 # Engineering Portfolio - Jacob Niv
 
+My personal website: [jacobniv.xyz](https://jacobniv.xyz)
+
 A modern, responsive portfolio website showcasing engineering projects, experience, and skills. Built with Astro and Svelte, featuring dark/light mode support and smooth scroll-based navigation.
 
 ## 🚀 Features

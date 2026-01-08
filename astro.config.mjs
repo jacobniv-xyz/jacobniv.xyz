@@ -7,10 +7,17 @@ import mdx from '@astrojs/mdx';
 
 import tailwindcss from '@tailwindcss/vite';
 
+import sitemap from '@astrojs/sitemap';
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [svelte(), mdx()],
-
+  site: 'https://jacobniv.xyz',
+  integrations: [
+    svelte({}),
+    mdx(),
+    sitemap()
+  ],
+  output: 'static',
   vite: {
     plugins: [tailwindcss()]
   }

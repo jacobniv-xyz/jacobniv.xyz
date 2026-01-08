@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",
+    "@astrojs/sitemap": "^3.6.1",
     "@astrojs/svelte": "^7.2.5",
+    "@sveltejs/adapter-static": "^3.0.10",
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.7",
     "mode-watcher": "^1.1.0",
