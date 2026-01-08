@@ -28,7 +28,6 @@ absolute-altitude/
 │   │   ├── MobileHeader.svelte       # Mobile header (lg:hidden)
 │   │   ├── ModeToggle.svelte         # Dark/light mode toggle
 │   │   ├── Portfolio.svelte          # Main container component
-│   │   ├── Sidebar.svelte            # (Unused - legacy?)
 │   │   ├── Welcome.astro             # (Unused - legacy?)
 │   │   └── projects/
 │   │       ├── CustomFidgets.svelte
