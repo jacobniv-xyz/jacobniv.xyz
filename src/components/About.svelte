@@ -30,8 +30,8 @@
             data-s-event="Resume Download"
             data-s-event-path="/about"
           >
-            <FileText class="h-4 w-4 text-muted-foreground" />
-            <span class="text-sm text-muted-foreground">Resume</span>
+            <FileText class="h-4 w-4 stroke-white text-muted-foreground" />
+            <span class="text-sm text-white text-muted-foreground">Resume</span>
           </a>
           <a 
             href="mailto:jacobniv2187@gmail.com"
@@ -40,8 +40,8 @@
             data-s-event="Email Click"
             data-s-event-path="/about"
           >
-            <Mail class="h-4 w-4 text-muted-foreground" />
-            <span class="text-sm text-muted-foreground">Email</span>
+            <Mail class="h-4 w-4 stroke-white text-muted-foreground" />
+            <span class="text-sm text-white text-muted-foreground">Email</span>
           </a>
           <a 
             href="https://www.linkedin.com/in/jacob-niv-56887033b/"
@@ -52,8 +52,8 @@
             data-s-event="LinkedIn Click"
             data-s-event-path="/about"
           >
-            <Linkedin class="h-4 w-4 text-muted-foreground" />
-            <span class="text-sm text-muted-foreground">LinkedIn</span>
+            <Linkedin class="h-4 w-4 stroke-white text-muted-foreground" />
+            <span class="text-sm text-white text-muted-foreground">LinkedIn</span>
           </a>
         </div>
       </div>
