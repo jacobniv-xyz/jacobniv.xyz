@@ -2,6 +2,7 @@
   import Mail from "@lucide/svelte/icons/mail";
   import Linkedin from "@lucide/svelte/icons/linkedin";
   import FileText from "@lucide/svelte/icons/file-text";
+  import { Button } from "$lib/components/ui/button";
   
   let { id = 'about' }: { id?: string } = $props();
   
@@ -21,40 +22,40 @@
       <div class="space-y-4 text-foreground leading-relaxed text-lg">
         <p class="text-lg">{summary}</p>
         <div class="flex items-center gap-4 flex-wrap">
-          <a 
+          <Button 
             href="/jn_resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
-            class="p-2 rounded-lg hover:bg-accent/50 transition-colors duration-200 border border-border/50 hover:border-border flex items-center justify-center gap-2 px-3"
+            variant="outline"
             aria-label="Resume"
             data-s-event="Resume Download"
             data-s-event-path="/about"
           >
-            <FileText class="h-4 w-4 stroke-white text-muted-foreground" />
-            <span class="text-sm text-white text-muted-foreground">Resume</span>
-          </a>
-          <a 
+            <FileText />
+            Resume
+          </Button>
+          <Button 
             href="mailto:jacobniv2187@gmail.com"
-            class="p-2 rounded-lg hover:bg-accent/50 transition-colors duration-200 border border-border/50 hover:border-border flex items-center justify-center gap-2 px-3"
+            variant="outline"
             aria-label="Email"
             data-s-event="Email Click"
             data-s-event-path="/about"
           >
-            <Mail class="h-4 w-4 stroke-white text-muted-foreground" />
-            <span class="text-sm text-white text-muted-foreground">Email</span>
-          </a>
-          <a 
+            <Mail />
+            Email
+          </Button>
+          <Button 
             href="https://www.linkedin.com/in/jacob-niv-56887033b/"
             target="_blank"
             rel="noopener noreferrer"
-            class="p-2 rounded-lg hover:bg-accent/50 transition-colors duration-200 border border-border/50 hover:border-border flex items-center justify-center gap-2 px-3"
+            variant="outline"
             aria-label="LinkedIn"
             data-s-event="LinkedIn Click"
             data-s-event-path="/about"
           >
-            <Linkedin class="h-4 w-4 stroke-white text-muted-foreground" />
-            <span class="text-sm text-white text-muted-foreground">LinkedIn</span>
-          </a>
+            <Linkedin />
+            LinkedIn
+          </Button>
         </div>
       </div>
     </div>
