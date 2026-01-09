@@ -133,7 +133,7 @@
               </button>
               
               {#if projectsDropdownOpen}
-                <div class="absolute top-full left-0 mt-2 w-48 bg-background border border-border/50 rounded-lg shadow-lg py-2 z-50">
+                <div class="absolute top-full left-0 w-48 bg-background border border-border/50 rounded-lg shadow-lg py-2 z-50">
                   {#each projectItems as project}
                     <a
                       href="#{project.id}"
