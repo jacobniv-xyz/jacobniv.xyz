@@ -21,7 +21,7 @@
     </div>
 
     <div class="lg:col-span-8 space-y-8">
-      <div class="space-y-4 text-muted-foreground leading-relaxed text-base">
+      <div class="space-y-4 text-foreground leading-relaxed text-lg">
         {#each paragraphs as paragraph}
           <p>{paragraph}</p>
         {/each}
@@ -33,7 +33,7 @@
             Fidget Cube
           </h3>
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-            <div class="space-y-3 text-muted-foreground text-base leading-relaxed">
+            <div class="space-y-3 text-foreground text-lg leading-relaxed">
               <ul class="space-y-2.5 list-disc pl-6">
                 <li>Six different combinations of textures and dynamic tactile experiences.</li>
                 <li>Magnetic slider, embedded ball bearings, gears, wheel, and joystick.</li>
@@ -57,7 +57,7 @@
             Diamond Spinner
           </h3>
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-            <div class="space-y-4 text-muted-foreground text-base leading-relaxed">
+            <div class="space-y-4 text-foreground text-lg leading-relaxed">
               <p>2 identical magnetic sides that rotate about a pin. Satisfying in its simplicity. Comes in variety of colors.</p>
               <img src="/pics/diamond_spinner.png" alt="Diamond Spinner" class="w-full rounded mt-6" />
             </div>

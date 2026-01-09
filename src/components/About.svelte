@@ -18,7 +18,7 @@
     </div>
     
     <div class="lg:col-span-8 space-y-6">
-      <div class="space-y-4 text-muted-foreground leading-relaxed text-base">
+      <div class="space-y-4 text-foreground leading-relaxed text-lg">
         <p class="text-lg">{summary}</p>
         <div class="flex items-center gap-4 flex-wrap">
           <a 

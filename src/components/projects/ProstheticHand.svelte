@@ -16,13 +16,13 @@
     <div class="lg:col-span-4">
       <div class="text-xs uppercase tracking-widest text-muted-foreground mb-2">Project 02</div>
       <h2 class="text-3xl lg:text-4xl font-semibold mb-6 text-foreground" style="font-family: 'Playfair Display', serif;">
-        Prosthetic Card-holding Hand
+        Prosthetic Card&#8209;holding Hand
       </h2>
     </div>
     
     <div class="lg:col-span-8 space-y-6">
       <img src="/pics/card_older.png" alt="Prosthetic Card-holding Hand" class="w-full rounded" />
-      <div class="space-y-4 text-muted-foreground leading-relaxed text-base">
+      <div class="space-y-4 text-foreground leading-relaxed text-lg">
         <p>{paragraph}</p>
         <ul class="space-y-2.5 list-disc pl-6">
           {#each listItems as item}

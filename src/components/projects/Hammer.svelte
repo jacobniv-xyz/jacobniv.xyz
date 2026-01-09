@@ -28,7 +28,7 @@
     
     <div class="lg:col-span-8 space-y-6">
       <img src="/pics/hammer.png" alt="Precision Hammer" class="w-full rounded" />
-      <div class="space-y-4 text-muted-foreground leading-relaxed text-base">
+      <div class="space-y-4 text-foreground leading-relaxed text-lg">
         {#each paragraphs as paragraph}
           <p>{paragraph}</p>
         {/each}
@@ -37,7 +37,7 @@
             <li>
               {item.text}
               {#if item.subItems}
-                <ul class="ml-6 mt-1.5 space-y-1.5 list-disc pl-6 text-muted-foreground">
+                <ul class="ml-6 mt-1.5 space-y-1.5 list-disc pl-6 text-foreground">
                   {#each item.subItems as subItem}
                     <li>{subItem}</li>
                   {/each}

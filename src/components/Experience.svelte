@@ -44,7 +44,7 @@
             <p class="text-base font-medium text-muted-foreground/90">{experience.company}</p>
             <p class="text-sm text-muted-foreground/70">{experience.location} • {experience.dates}</p>
           </div>
-          <ul class="space-y-2 text-muted-foreground leading-relaxed text-base list-disc pl-6">
+          <ul class="space-y-2 text-foreground leading-relaxed text-lg list-disc pl-6">
             {#each experience.responsibilities as responsibility}
               <li>{responsibility}</li>
             {/each}

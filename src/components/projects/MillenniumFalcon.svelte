@@ -21,7 +21,7 @@
     </div>
 
     <div class="lg:col-span-8 space-y-6">
-      <div class="space-y-4 text-muted-foreground leading-relaxed text-base">
+      <div class="space-y-4 text-foreground leading-relaxed text-lg">
         {#each paragraphs as paragraph}
           <p>{paragraph}</p>
         {/each}

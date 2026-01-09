@@ -15,7 +15,7 @@
 
     <div class="lg:col-span-8 space-y-6">
       <img src="/pics/sweeper.png" alt="Carpet Sweeper Design" class="w-full rounded" />
-      <div class="space-y-4 text-muted-foreground leading-relaxed text-base">
+      <div class="space-y-4 text-foreground leading-relaxed text-lg">
         <p>{paragraph}</p>
       </div>
     </div>

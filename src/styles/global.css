@@ -19,7 +19,7 @@
   --secondary: oklch(0.96 0.01 280);
   --secondary-foreground: oklch(0.15 0.01 280);
   --muted: oklch(0.96 0.005 280);
-  --muted-foreground: oklch(0.45 0.01 280);
+  --muted-foreground: oklch(0.32 0.01 280);
   --accent: oklch(0.96 0.01 280);
   --accent-foreground: oklch(0.15 0.01 280);
   --destructive: oklch(0.55 0.22 25);
@@ -124,6 +124,10 @@
     font-family: 'Playfair Display', Georgia, serif;
     font-weight: 600;
     letter-spacing: -0.01em;
+  }
+  p {
+    font-size: 1.125rem; /* 18px - better readability */
+    line-height: 1.75; /* 1.75 - more comfortable line spacing */
   }
   img {
     @apply max-w-full h-auto;
